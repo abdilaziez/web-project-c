@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: lightblue; */
+}
+
+/* .kotak {
+    background-color: #C4C4C4;
+    width: 1245px;
+    height: 1500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    right: 50px;
+    top: 50px;
+    top: 50px;
+    right: 50px;
+    z-index: 190;
+}
+.kotak .kotak-merah {
+    position: absolute;
+    background-color: #572C2C;
+    width: 450px;
+    height: 360px;
+    right: -50px;
+    top: -50px;
+}
+
+footer {
+    position: fixed;
+    background-color: red;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+    z-index: 99;
+} */
+
+/* .kotak {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+} */
+
+
+/* mobile first */
+/* @media screen and (min-width: 768px) {
+    .kotak {
+        width: 400px;
+        height: 400px;
+    }
+} */
+/* desktop first */
+/* @media screen and (max-width: 500px) {
+    .kotak {
+        width: 100px;
+        height: 100px;
+    }
+} */
+
+
+
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.kotak-gray {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .kotak-gray {
+        margin: 20px 0;
+    }
+}
